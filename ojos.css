@@ -1,0 +1,75 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: "Kalam", cursive;
+    background-color: #d3d3d3; /* Fondo gris claro */
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #dd1e1e;
+    color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+.logo {
+    position: absolute;
+    left: 10px;
+    top: 4px;
+  }
+  
+.logo img {
+    max-height: 50px;
+  }
+
+  .nav-container {
+    display: flex;
+    justify-content: center;
+    font-family: "Kalam", cursive;
+    flex-grow: 1;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    gap: 20px;
+  }
+  
+  .nav-links li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .nav-links li a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+  
+
+
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding-top: 80px;
+}
+
+#canvas-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    z-index: 1
+}
